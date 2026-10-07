@@ -12,7 +12,7 @@ pipeline {
         stage('Create Python Environment') {
             steps {
                 // .dk naam se Python virtual environment banana
-                sh 'python -m venv .dk'
+                sh 'python3 -m venv .dk'
             }
         }
 
